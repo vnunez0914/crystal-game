@@ -5,11 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="asset/css/style.css">
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
     <title>Crystal Collection</title>
 </head>
@@ -24,19 +22,21 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="instructions">
-                <p>You will be given a random at the start of the game</p>
-                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to
-                    your total score.</p>
-                <p>You win the game by matching your total score to random number, you lose the game if your total score
-                    goes above the random number</p>
-                <p>The value of each crsytal is hidden from you until you click on it.</p>
-                <p>Each time when the game starts, the game will change the value of each crystal</p>
+                    <p>You will be given a random at the start of the game</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        to
+                        your total score.</p>
+                    <p>You win the game by matching your total score to random number, you lose the game if your total
+                        score
+                        goes above the random number</p>
+                    <p>The value of each crsytal is hidden from you until you click on it.</p>
+                    <p>Each time when the game starts, the game will change the value of each crystal</p>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-2">
-                <h2>0<span id="compNumText"></span></h1>
+                <h2>0<span id="compNum"></span></h1>
             </div>
             <div class="col-md-2">
                 <ul>
@@ -51,32 +51,38 @@
         </div>
         <div class="row">
             <div class="class col-md-3">
-                <button id="button1" class="btn-sm"><img src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/1/17/Soul_Stone_VFX.png/revision/latest?cb=20190427012633"></button>
+                <button id="button1" class="btn-sm"><img
+                        src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/1/17/Soul_Stone_VFX.png/revision/latest?cb=20190427012633"></button>
             </div>
             <div class="class col-md-3">
-                <button id="button2" class="btn-sm"><img src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/0a/Space_Stone_VFX.png/revision/latest?cb=20190427012702"></button> 
+                <button id="button2" class="btn-sm"><img
+                        src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/0/0a/Space_Stone_VFX.png/revision/latest?cb=20190427012702"></button>
             </div>
             <div class="class col-md-3">
-                <button id="button3" class="btn-sm"><img src=" https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/f/f0/Time_Stone_VFX.png/revision/latest?cb=20190427012724"></button>
+                <button id="button3" class="btn-sm"><img
+                        src=" https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/f/f0/Time_Stone_VFX.png/revision/latest?cb=20190427012724"></button>
             </div>
             <div class="class col-md-3">
-                <button id="button4" class="btn-sm"><img src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/d/d7/Power_Stone_VFX.png/revision/latest?cb=20190427012543"></button>
+                <button id="button4" class="btn-sm"><img
+                        src="https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/d/d7/Power_Stone_VFX.png/revision/latest?cb=20190427012543"></button>
             </div>
         </div>
         <div class="class row">
-            <div class="col-md-4">
+            <div class="col-sm-2">
                 <p>Your total score is:</p>
             </div>
         </div>
         <div class="class row">
-            <div class="col-md-4">
+            <div class="col-sm-2">
                 <h2>0<span id="userScore"></span></h2>
             </div>
         </div>
-
-
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
 </body>
 
-</html>
+</html> 
