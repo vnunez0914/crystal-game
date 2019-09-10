@@ -42,7 +42,7 @@ $(document).ready(function () {
         for (var i = 0; i < crystalImages.length; i++) {
             var crystalButton = $("<div>");
             crystalButton.attr("class", "crystal");
-            crystalButton.attr('class', 'col-md-3');
+            //crystalButton.attr("class", "col-md-3");
             crystalButton.attr('id', "crystal-" + i);
             var image = $('<img>');
             image.attr('src', crystalImages[i]);

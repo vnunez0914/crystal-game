@@ -1,0 +1,47 @@
+.crystal-container{
+    display: flex;
+}
+
+#crystal-0{
+    padding: 5%;
+}
+
+#crystal-1{
+    padding: 5%;
+}
+
+#crystal-2{
+    padding: 5%;
+}
+
+#crystal-3{
+    padding: 5%;
+}
+
+/* #crystal-0{
+    height: 180px;
+    width: 180;
+    border-color: black;
+    background:orange
+}
+
+#crystal-1{
+    height: 180px;
+    width: 180;
+    border-color: black;
+    background:orange
+}
+
+#crystal-2{
+    height: 180px;
+    width: 180;
+    border-color: black;
+    background:orange
+}
+
+#crystal-3{
+    height: 180px;
+    width: 180;
+    border-color: black;
+    background:orange
+} */
