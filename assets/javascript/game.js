@@ -67,7 +67,7 @@ $(document).ready(function () {
             resetGame();
         }
 
-    })
+    });
 
 
     // $("#button1").on("click", function(){

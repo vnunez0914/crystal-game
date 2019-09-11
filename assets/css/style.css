@@ -1,3 +1,32 @@
+h1{
+    background-color: rgb(70, 70, 67);
+    color: white;
+    font-size: 35px;
+}
+body{
+    background-color: gray;
+}
+.instructions{
+    color: white;
+    background-color: rgb(70, 70, 67);
+} 
+
+h2{
+    color: white;
+    height: 63px;
+    background-color: rgb(70, 70, 67);
+}
+
+ul{
+    color: white;
+    background-color: rgb(70, 70, 67);
+}
+
+p{
+    color: white;
+    background-color: rgb(70, 70, 67);
+}
+
 .crystal-container{
     display: flex;
 }
@@ -17,31 +46,3 @@
 #crystal-3{
     padding: 5%;
 }
-
-/* #crystal-0{
-    height: 180px;
-    width: 180;
-    border-color: black;
-    background:orange
-}
-
-#crystal-1{
-    height: 180px;
-    width: 180;
-    border-color: black;
-    background:orange
-}
-
-#crystal-2{
-    height: 180px;
-    width: 180;
-    border-color: black;
-    background:orange
-}
-
-#crystal-3{
-    height: 180px;
-    width: 180;
-    border-color: black;
-    background:orange
-} */
